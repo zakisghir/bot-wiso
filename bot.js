@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' Bot By:!Zaki Saghir ','احسن سيرفر'];
+    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' By: Zaki Saghir ','احسن سيرفر'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> WESO#0001
+『 By ====> ZAKI#0001
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> WESO#0001
+『 By ====> ZAKI#0001
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')
