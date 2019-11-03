@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' BOT By:!Zaki Saghir ','احسن سيرفر'];
+    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' Bot By:!Zaki Saghir ','احسن سيرفر'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3681,7 +3681,7 @@ reaction1.on("collect", r => {
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
 『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> WESO#0001
+『 By ====> ZAKI#0001
 **
 `)
    message.author.sendEmbed(embed)
